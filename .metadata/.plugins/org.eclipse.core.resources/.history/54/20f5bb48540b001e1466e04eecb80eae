@@ -1,0 +1,5 @@
+package com.example.springquiz.controller;
+
+public class StudentController {
+
+}
