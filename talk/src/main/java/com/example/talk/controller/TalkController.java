@@ -113,20 +113,20 @@ public class TalkController {
 				//버튼이 태그 형태로 들어있음. 
 				String pageIndexList = myUtil.pageIndexList(currentPage, totalPage, listUrl);
 				
-				String articlUrl = "/article?pageNum=" + currentPage;
+				String articleUrl = "/article?pageNum=" + currentPage;
 				
 				if(!param.equals("")) {
-					articlUrl += "&" + param;
+					articleUrl += "&" + param;
 				}
 				
 				model.addAttribute("lists",lists); //db에서 가져온 전체 게시물			
-				model.addAttribute("articlUrl",articlUrl); //상세페이지로 이동하기 위한url			
+				model.addAttribute("articleUrl", articleUrl); //상세페이지로 이동하기 위한url			
 				model.addAttribute("pageIndexList",pageIndexList); // ◀이전 1 2 3 4 5 다음▶			
 				model.addAttribute("dataCount",dataCount); //전체 게시물의 갯수.			
 				
 			} catch (Exception e) {
 				e.printStackTrace();
-				model.addAttribute("errorMessage", "게시글 작성 중 에러가 발생했습니다.");
+				model.addAttribute("errorMessage", "게시글 작성 중 에러 발생");
 			}
 			
 			
@@ -157,9 +157,7 @@ public class TalkController {
 					return "redirect:/list?pageNum=" + pageNum;
 				}
 				
-				//게시글의 라인 수를 구한다. 
-				int lineSu = talk.getContent().split("\n").length; // /랑 |구분 필......
-				
+	
 				String param = "pageNum=" + pageNum;
 				
 				
@@ -171,7 +169,6 @@ public class TalkController {
 				
 				model.addAttribute("talk",talk);
 				model.addAttribute("params",param);
-				model.addAttribute("lineSu",lineSu);
 				model.addAttribute("pageNum",pageNum);
 				
 				

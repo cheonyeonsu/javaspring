@@ -1,5 +1,0 @@
-package com.example.springquiz.service;
-
-public interface StudentService {
-
-}

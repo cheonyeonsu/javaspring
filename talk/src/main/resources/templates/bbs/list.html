@@ -2,14 +2,15 @@
 <html xmlns:th="http://www.thymeleaf.org"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
 	layout:decorate="~{layouts/layout1}">
-<head>
-<meta charset="UTF-8">
-<title>Q&A</title>
 
+<th:block layout:fragment="css">
 <link rel="stylesheet" type="text/css" href="css/list.css" />
 
-</head>
-<body>
+</th:block>
+
+
+
+
 	<div id="bbsList" layout:fragment="content">
 		<div id="bbsList_header">
 			<div id="leftHeader">
@@ -42,8 +43,8 @@
 				</thead>
 
 				<tbody id="lists">
-					<tr th:if="${#lists.size(lists)}>0" th:each="board:${lists}">
-						<td class="num" th:text="${board.num}"></td>
+					<tr th:if="${#lists.size(lists)}>0" th:each="talk:${lists}">
+						<td class="num" th:text="${talk.num}"></td>
 						<td class="subject"><a
 							th:href="|@{${articleUrl}}&num=@{${talk.num}}|"
 							th:text="${talk.subject}">제목</a></td>
@@ -69,6 +70,7 @@
 	</div>
 	<th:block layout:fragment="script">
 		<script th:inline="javascript">
+		/*
         var errorMessage1 = [[${param.errorMessage}]]; //get방식으로 가져올때 대비
         var errorMessage2 = [[${errorMessage}]]; //post 방식으로 가져올때 대비
 
@@ -85,9 +87,10 @@
 		   f.action = "/list";
 		   f.submit();
 	    }
+	    */
 	</script>
 	</th:block>
 
 
-</body>
+
 </html>

@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 
 public class Talk {
-	private int num;
+	private int num; //게시글 번호
 	private String name;
 	private String pwd;
 	private String subject;

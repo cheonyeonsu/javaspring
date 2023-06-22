@@ -2,14 +2,11 @@
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layouts/layout1}">
-<head>
-<meta charset="UTF-8">
-<title>Q&A</title>
 
+<th:block layout:fragment="css">
 <link rel="stylesheet" type="text/css" href="css/created.css"/>
 
-</head>
-<body>
+</th:block>
 
 <div id="bbs" layout:fragment="content">
 	
@@ -77,7 +74,9 @@
 
 <th:block layout:fragment="script">
 	<script th:inline="javascript">
-        var errorMessage = [[${errorMessage}]];
+        
+	/*
+	var errorMessage = [[${errorMessage}]];
         if(errorMessage != null){
             alert(errorMessage);
         }
@@ -125,9 +124,9 @@
     	f.submit();
     	
     	}
-
+*/
 	</script>
 </th:block>
 
-</body>
+
 </html>

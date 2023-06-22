@@ -14,7 +14,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id = "getDataCount" parameterType="map" resultType="int">
 		select nvl(count(*),0) from talk where ${searchKey} like '%' || #{searchValue} || '%'
 	</select>
-	<select id="getLists" parameterType="map" resultType="Board">
+	<select id="getLists" parameterType="map" resultType="Talk">
 		select*from(
 		select rownum rnum, data.*from
 		(select num,name,subject,hitcount,to_char(created,'YYYY-MM-DD') created
@@ -26,13 +26,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		]]>
 	</select>
 	<update id="updateHitCount" parameterType="int">
-		update talk set hirCount = hitCount+1 where num = #{num}
+		update talk set hitCount = hitCount+1 where num = #{num}
 	</update>
-	<select id="getReadData" parameterType="int" resultType="Board">
+	<select id="getReadData" parameterType="int" resultType="Talk">
 	select * from talk where num = #{num}
 	</select>
 	
-	<update id="updateData" parameterType="Board">
+	<update id="updateData" parameterType="Talk">
 	update talk set name=#{name}, pwd=#{pwd}, subject=#{subject}, content=#{content} where num= #{num}
 	</update>
 	

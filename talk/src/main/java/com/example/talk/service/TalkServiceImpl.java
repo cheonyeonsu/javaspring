@@ -11,8 +11,8 @@ import com.example.talk.dto.Talk;
 @Service
 public class TalkServiceImpl implements TalkService{
 
-	@Autowired
-	private TalkDao boardMapper;
+	@Autowired //의존성 주입
+	private TalkDao boardMapper; 
 	
 	@Override
 	public int maxNum() throws Exception {
@@ -21,8 +21,7 @@ public class TalkServiceImpl implements TalkService{
 
 	@Override
 	public void insertData(Talk talk) throws Exception {
-		
-		
+		boardMapper.insertData(talk);
 	}
 
 	@Override

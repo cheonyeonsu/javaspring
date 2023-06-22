@@ -2,17 +2,14 @@
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layouts/layout1}">
-<head>
-<meta charset="UTF-8">
-<title>Q&A</title>
 
+<th:block layout:fragment="css">
 <link rel="stylesheet" type="text/css" href="css/created.css"/>
-</head>
-<body>
+</th:block>
 
 
 <div id="bbs" layout:fragment="content">
-	<form action="/created" method="post" name="myForm" enctype="multipart/form-data">
+	<form action="/created" method="post" name="myForm">
 	<div id="bbsCreated">
 		
 		<div class="bbsCreated_bottomLine">
@@ -69,13 +66,13 @@
 
 <th:block layout:fragment="script">
 	<script th:inline="javascript">
+	/*
     var errorMessage = [[${errorMessage}]];
     if(errorMessage != null){
         alert(errorMessage);
     }
-    
-    	//function sendIt(){
-		//=> = 화살표 함수
+    */
+  
 	const sendIt = () => {
 		
 		var f = document.myForm;
@@ -117,9 +114,10 @@
 		f.submit();
 
 	}
+	
 	</script>
+	
 </th:block>
 
 
-</body>
 </html>
