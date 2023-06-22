@@ -17,7 +17,7 @@ public class MyUtil {
 	public String pageIndexList(int currentPage, int totalPage, String listUrl) {
 		// StringBuffer :문자열 데이터를 자주 추가하거나 삭제할 때 메모리 낭비 방지위해 사용.  
 		StringBuffer sb = new StringBuffer(); 
-		int numPerBlock = 5; // ◀이전 6 7 8 9 다음▶ : 이전하구 다음 사이에 숫자 몇개 표시할건지.
+		int numPerBlock = 5; // ◀이전 6 7 8 9 10 다음▶ : 이전하구 다음 사이에 숫자 몇개 표시할건지.
 		int currentPageSetup; // '◀이전'버튼에 들어갈 값.
 		int page; //그냥 페이지 숫자를 클릭했을 때 들어갈 값. 
 		
@@ -55,7 +55,7 @@ public class MyUtil {
 			} else {
 				//현재 내가 선택한 페이지가 아니라면 링크 걸어놓음.
 				sb.append("<a href=\"" + listUrl + "pageNum=" + page + "\">" + page + "</a>&nbsp;");
-			}
+	 		}
 			
 			page++;
 		}

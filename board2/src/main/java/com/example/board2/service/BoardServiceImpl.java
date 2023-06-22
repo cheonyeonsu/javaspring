@@ -21,7 +21,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public void insertData(Board board) throws Exception {
-		// TODO Auto-generated method stub
+		
 
 	}
 
