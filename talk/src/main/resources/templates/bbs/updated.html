@@ -17,8 +17,7 @@
 			<dl>
 				<dt>제&nbsp;&nbsp;&nbsp;&nbsp;목</dt>
 				<dd>
-				<input type="text" name="subject" th:value="${talk.subject}" size="60" 
-				maxlength="100" class="boxTF"/>
+				<input type="text" name="subject" th:value="${talk.subject}" size="60" maxlength="100" class="boxTF"/>
 				</dd>
 			</dl>		
 		</div>
@@ -27,8 +26,7 @@
 			<dl>
 				<dt>작 성 자</dt>
 				<dd>
-				<input type="text" name="name" th:value="${talk.name}" size="35" 
-				maxlength="20" class="boxTF"/>
+				<input type="text" name="name" th:value="${talk.name}" size="35" maxlength="20" class="boxTF"/>
 				</dd>
 			</dl>		
 		</div>
@@ -37,8 +35,7 @@
 			<dl>
 				<dt>내&nbsp;&nbsp;&nbsp;&nbsp;용</dt>
 				<dd>
-				<textarea rows="12" cols="63" name="content"
-				class="boxTA" th:text="${talk.content}"></textarea>
+				<textarea rows="12" cols="63" name="content" class="boxTA" th:text="${talk.content}"></textarea>
 				</dd>
 			</dl>
 		</div>
@@ -47,8 +44,7 @@
 			<dl>
 				<dt>패스워드</dt>
 				<dd>
-				<input type="password" name="pwd" th:value="${talk.pwd}" size="35" 
-				maxlength="7" class="boxTF"/>
+				<input type="password" name="pwd" th:value="${talk.pwd}" size="35" maxlength="7" class="boxTF"/>
 				&nbsp;(게시물 수정 및 삭제시 필요!!)
 				</dd>
 			</dl>		
@@ -75,7 +71,7 @@
 <th:block layout:fragment="script">
 	<script th:inline="javascript">
         
-	/*
+	
 	var errorMessage = [[${errorMessage}]];
         if(errorMessage != null){
             alert(errorMessage);
@@ -124,7 +120,7 @@
     	f.submit();
     	
     	}
-*/
+
 	</script>
 </th:block>
 

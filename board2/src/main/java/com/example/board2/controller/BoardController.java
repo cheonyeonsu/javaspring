@@ -28,6 +28,7 @@ public class BoardController {
 	
 
 	@RequestMapping(value="/") //localhost로 접속.  getmapping을 이렇게 하면은 최상단으로 감. 
+	// 특정 URL로 요청을 보내면 Controller에서 어떠한 방식으로 처리할지 정의 > 이때 들어온 요청을 특정 메서드와 매핑하기 위해 사용하는 것
 	public String index() {
 		return "index";
 	}

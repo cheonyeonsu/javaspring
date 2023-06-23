@@ -26,10 +26,13 @@ public class TalkController {
 	@Autowired
 	MyUtil myUtil;
 	
-	@RequestMapping(value="/")
-	public String index() {
-		return "index";
+	
+	 //메인화면 : /입력하면 index창으로 보낸다
+	 @RequestMapping(value="/") 
+	 public String index() { 
+		 return "index"; 
 	}
+
 	
 	//게시글 보여줌
 	@RequestMapping(value="created",method=RequestMethod.GET)

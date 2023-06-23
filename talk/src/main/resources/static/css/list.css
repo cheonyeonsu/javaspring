@@ -81,7 +81,7 @@
 }
 
 #bbsList_list .num {width:50px;}
-#bbsList_list .subject {width:420px;}
+#bbsList_list .subject {width:400px;}
 #bbsList_list .name {width:90px;}
 #bbsList_list .created {width:65px;}
 #bbsList_list .hitCount {width:60px;}
@@ -99,7 +99,7 @@
 }
 
 #bbsList_list dd.subject, #bbsList_list td.subject {
-	width:410px;
+	width:400px;
 	margin-left:10px;
 	text-align:left;
 }
