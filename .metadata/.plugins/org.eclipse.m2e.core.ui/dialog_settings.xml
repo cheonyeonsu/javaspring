@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\cysproject\spring\shopmax"/>
+			<item value="C:\cysproject\spring\myshop-main"/>
+			<item value="C:\Users\EZEN-29\Desktop\shopmax-master"/>
 			<item value="C:\cysproject\spring\talk"/>
 			<item value="C:\cysproject\spring\spring-board"/>
 			<item value="C:\cysproject\spring\board2"/>
