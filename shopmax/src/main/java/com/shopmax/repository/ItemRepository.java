@@ -5,12 +5,13 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.query.Param;
 
 import com.shopmax.constant.ItemSellStatus;
 import com.shopmax.entity.Item;
 								//<해당 레파지토리에서 사용할 entity, entity클래스의 기본키 타입.>
-public interface ItemRepository extends JpaRepository<Item,Long> {
+public interface ItemRepository extends JpaRepository<Item,Long>{
 	//select*from item where item_nm= ? 과 의미가 같음. 
 	List<Item> findByItemNm(String itemNm); 
 	
