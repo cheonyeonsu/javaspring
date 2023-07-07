@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-@Configuration //bean객체를 싱글톤으로 공유할 수 있게 해준다. 
+@Configuration //bean객체를 싱글톤으로 공유할 수 있게 해준다 > 효율적인 사용 가능. 
 @EnableWebSecurity // spring security filterChain이 자동으로 포함되게 한다. 
 public class SecurityConfig {
 
@@ -22,6 +22,7 @@ public class SecurityConfig {
 				//** : 뫄뫄 밑에 있는 모든 파일. 같은 경로에있는 파일 로긴안하고 볼수있음.
 				//모든 사용자가 로그인(인증)없이 접근할 수 있도록 설정. 
 				.requestMatchers("/","/members/**","item/**","").permitAll()
+				.requestMatchers("/favicon.ico","/error").permitAll()
 				//ADMIN(관리자)으로 시작하는 경로는 관리자만 접근가능하도록 설정. 
 				.requestMatchers("/admin/**").hasRole("ADMIN")
 				//그 외의 페이지는 모두 로그인(인증을 받아야 한다.)
@@ -41,7 +42,7 @@ public class SecurityConfig {
 				.logoutSuccessUrl("/") //로그아웃 성공하면 메인페이지로 이동하겠음!
 				.permitAll()
 				) 
-		//4. 인증되지 않은 사용자가 리소스에 접근했을 때 설정(ex. 로긴안하고 로긴필요한 페이지 접근한 ㅅ)
+		//4. 인증되지 않은 사용자가 리소스에 접근했을 때 설정(ex. 로긴안하고 로긴필요한 페이지 접근한 사람. )
 		.exceptionHandling(handling ->handling 
 				.authenticationEntryPoint(new CustomAuthenticationEntryPoint())
 		)

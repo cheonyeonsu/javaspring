@@ -8,7 +8,7 @@
 </style>
 </th:block>
 
-<th:block layout:fragment="content">
+<div layout:fragment="content">
 	<div class="bg-light py-3">
 		<div class="container">
 			<div class="row">
@@ -43,7 +43,8 @@
 								</div>
 
 								<div class="form-group">
-									<p th:if="${loginErrorMsg}" class="error" th:text="${loginErrorMsg}"> </p>
+									<p th:if="${loginErrorMsg}" class="error"
+										th:text="${loginErrorMsg}"></p>
 									<label><input type="checkbox" name="id_save"
 										id="id_save" />이메일 기억</label>
 									<div>
@@ -63,10 +64,35 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<th:block layout:fragment="script">
-		<script th:inline="javascript">
-			
-		</script>
-	</th:block>
+<th:block layout:fragment="script">
+	<script type="text/javascript" th:src="@{/js/cookie.js}"></script>
+	<script th:inline="javascript">
+		//쿠키를 이용한 아이디 기억
+		$(document).ready(function() {
+			var userInputId = getCookie("userInputId");
+			var setCookieYN = getCookie("setCookieYN");
+
+			if (setCookieYN == 'Y') {
+				$("#id_save").prop("checked", true);
+				$("#email").val(userInputId);
+			} else {
+				$("#id_save").prop("checked", false);
+			}
+
+			//로그인 버튼 클릭
+			$('#loginbtn').click(function() {
+				if ($("#id_save").is(":checked")) {
+					var userInputId = $("#email").val();
+					setCookie("userInputId", userInputId, 60);
+					setCookie("setCookieYN", "Y", 60);
+				} else {
+					deleteCookie("userInputId");
+					deleteCookie("setCookieYN");
+				}
+			});
+		});
+	</script>
+</th:block>
 </html>
