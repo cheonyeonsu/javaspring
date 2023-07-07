@@ -9411,3 +9411,264 @@ Caused by: java.io.EOFException: no more data available - expected end tags </ar
 2023-07-07 15:21:13,845 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2023-07-07 15:21:13,857 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
 2023-07-07 15:21:13,874 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:25:12,634 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-07 15:32:00,101 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:32:00,118 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:32:00,140 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:35:25,099 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-07 15:39:45,877 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:39:45,919 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:39:46,161 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:39:48,712 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:48,737 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2023-07-07 15:39:48,770 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\spring-board\src\test\resources
+2023-07-07 15:39:49,638 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:49,659 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:49,665 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\spring-project\src\test\resources
+2023-07-07 15:39:50,476 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:50,497 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:50,503 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\spring-quiz\src\test\resources
+2023-07-07 15:39:51,213 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 15:39:51,232 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2023-07-07 15:39:51,256 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\talk\src\test\resources
+2023-07-07 15:45:57,544 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:45:57,908 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:45:57,930 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:46:53,602 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:46:53,616 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:46:53,636 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:52:38,549 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:52:38,562 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:52:38,583 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 15:59:12,879 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 15:59:12,891 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 15:59:12,911 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:03:21,081 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:03:21,094 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:03:21,113 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:06:51,049 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:06:51,061 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:06:51,080 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:07:44,455 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:07:44,471 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:07:44,492 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:10:23,387 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:10:23,401 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:10:23,419 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:12:38,041 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:12:38,055 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:12:38,074 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:13:23,059 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:13:23,072 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:13:23,091 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:13:34,334 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:13:34,389 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:13:34,409 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:13:49,470 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:13:49,491 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:13:49,511 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:14:50,689 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:14:50,701 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:14:50,720 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:18:48,262 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:18:48,274 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:18:48,292 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:19:49,683 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 16:19:49,684 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 16:19:49,688 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:20:36,432 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 16:20:36,432 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 16:20:36,436 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:34:19,065 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:34:19,077 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:34:19,097 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:34:37,097 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:shopmax:0.0.1-SNAPSHOT @ C:\cysproject\spring\shopmax\pom.xml.
+2023-07-07 16:34:39,853 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier  to /myshop-main/target/classes
+2023-07-07 16:34:40,325 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier  to /myshop-main/target/classes
+2023-07-07 16:34:40,919 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 16:34:40,919 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 16:34:40,922 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:38:55,490 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:38:55,517 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:38:55,614 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:39:34,449 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:39:34,478 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:39:34,497 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:43:37,985 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:43:38,001 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:43:38,022 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:44:04,684 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:44:04,696 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:44:04,718 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:45:43,175 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 16:45:43,176 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 16:45:43,179 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:47:55,741 [Worker-34: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:47:55,937 [Worker-34: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:47:56,133 [Worker-34: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:49:24,119 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:49:24,154 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:49:24,174 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:49:39,147 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:49:39,160 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:49:39,180 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:49:44,083 [Worker-30: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:49:44,275 [Worker-30: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:49:44,469 [Worker-30: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:50:29,721 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:50:29,734 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:50:29,755 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:50:47,777 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:50:47,789 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:50:47,808 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:53:01,827 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:53:01,855 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:53:01,874 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:54:10,155 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:54:10,168 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:54:10,193 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:54:17,966 [Worker-37: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:54:18,172 [Worker-37: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:54:18,365 [Worker-37: Launching shopmax - ShopmaxApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/myshop-main: com.example:myshop:0.0.1-SNAPSHOT with classifier null to /myshop-main/target/classes
+2023-07-07 16:55:58,933 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:55:58,948 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:55:58,966 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:56:00,725 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:56:00,739 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:56:00,758 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:56:42,690 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:56:42,701 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:56:42,742 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:56:56,251 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:56:56,295 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:56:56,339 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 16:58:51,985 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 16:58:51,996 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 16:58:52,016 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:04:22,353 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [609])
+2023-07-07 17:04:22,365 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-07-07 17:04:22,365 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-07-07 17:04:22,365 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-07-07 17:04:22,365 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-07-07 17:04:22,365 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-07-07 17:04:22,366 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-07-07 17:04:22,367 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-07-07 17:04:22,368 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-07-07 17:04:22,369 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-07-07 17:04:22,370 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-07-07 17:04:22,370 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-07-07 17:04:22,370 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-07-07 17:04:22,370 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-07-07 17:04:22,370 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-07-07 17:04:22,371 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-07-07 17:04:22,372 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-07-07 17:04:22,372 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [923])
+2023-07-07 17:04:22,372 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-07-07 17:04:22,372 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-07-07 17:04:22,468 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-07-07 17:04:22,468 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-07-07 17:04:22,603 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-07-07 17:04:22,603 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-07-07 17:04:22,610 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-07-07 17:04:22,610 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-07-07 17:04:22,654 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\EZEN-29\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-07-07 17:04:22,658 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:04:22,658 [Worker-37: Launching Executing clean in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-07-07 17:04:30,755 [Worker-46: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:04:30,755 [Worker-46: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 17:04:53,910 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:shopmax:0.0.1-SNAPSHOT @ C:\cysproject\spring\shopmax\pom.xml.
+2023-07-07 17:04:54,577 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:04:54,605 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:04:54,719 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:05:06,489 [Worker-46: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:05:06,490 [Worker-46: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 17:05:46,654 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:05:46,666 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:05:46,691 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:05:55,731 [Worker-37: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:05:55,731 [Worker-37: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 17:06:35,173 [Worker-45: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:06:35,173 [Worker-45: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 17:07:29,913 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:07:29,930 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:07:29,949 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:10:44,504 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:10:44,504 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:10:44,507 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:14:17,896 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:14:17,909 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:14:17,929 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:14:37,230 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:14:37,231 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:14:37,234 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:17:50,390 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:17:50,402 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:17:50,421 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:22:08,052 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:22:08,064 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:22:08,083 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:33:49,546 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:33:49,558 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:33:49,576 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:34:09,550 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:34:09,561 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:34:09,579 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:34:14,241 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:34:14,253 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:34:14,272 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:34:35,879 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:34:35,891 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:34:35,909 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:34:46,838 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-07-07 17:34:46,874 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 71 resources from src\main\resources to target\classes
+2023-07-07 17:34:46,894 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:35:07,845 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:35:07,845 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:35:07,848 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:35:52,707 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:35:52,708 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:35:52,711 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:37:44,725 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:37:44,726 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:37:44,730 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:38:17,972 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:38:17,972 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:38:17,976 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:39:00,277 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:39:00,277 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:39:00,280 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:39:08,119 [Worker-66: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\cysproject\spring\shopmax":
+2023-07-07 17:39:08,119 [Worker-66: Launching Executing install in C__cysproject_spring_shopmax] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 17:41:26,117 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:41:26,118 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:41:26,121 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:41:40,624 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:41:40,625 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:41:40,629 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:42:34,822 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 17:42:34,822 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 17:42:34,825 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\cysproject\spring\shopmax\src\test\resources
+2023-07-07 17:43:20,068 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
