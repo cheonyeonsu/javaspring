@@ -29,7 +29,7 @@ public class ItemImgService {
 	if(!StringUtils.isEmpty(oriImgName)) {
 		//oriImgName이 빈문자열이 아니라면 이미지 파일 업로드.
 		imgName = fileService.uploadFile(itemImgLocation, oriImgName,itemImgFile.getBytes());
-		imgUrl = "/images/item" + imgName; 
+		imgUrl = "/images/item/" + imgName; 
 	}
 	
 	//2. item_img테이블에 저장

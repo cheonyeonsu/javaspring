@@ -29,10 +29,21 @@ public class ItemController {
 	
 	private final ItemService itemService;
 	
+	//상품 전체 리스트
 	@GetMapping(value="/item/shop")
 	public String itemShopList() {
 		return "item/itemShopList";
 	}
+	
+	//상품 상세 페이지
+	@GetMapping(value = "/item/{itemId}")
+	public String itemDtl(Model model, @PathVariable("itemId") Long itemId) {
+		ItemFormDto itemFormDto = itemService.getItemDtl(itemId);
+		model.addAttribute("item", itemFormDto);
+		return "item/itemDtl";
+	}
+	
+	
 	
 	//상품 등록 페이지
 	@GetMapping(value="/admin/item/new")

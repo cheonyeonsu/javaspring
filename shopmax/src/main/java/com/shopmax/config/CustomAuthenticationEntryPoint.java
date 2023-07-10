@@ -9,7 +9,8 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-//인증되지 않은 사용자가 리소스를 요청할 경우 어떻게 처리할 지에 대한 클래스. 
+//인증되지 않은 사용자가 리소스를 요청할 경우 어떻게 처리할 지에 대한 클래스.
+// > 로그인 안한사람. 
 public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint{
 
 	@Override
