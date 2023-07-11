@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -72,9 +73,42 @@ public class OrderController {
 		
 		//3.서비스에서 가져온 값들을 view단에 model을 이용해 전송
 		model.addAttribute("orders",orderHistDtoList);
-		model.addAttribute("page", pageable.getPageNumber());
-		model.addAttribute("maxpage",5);
+		model.addAttribute("maxPage",5); //하단에 보여줄 최대 페이지
+		//model.addAttribute("page", pageable.getPageNumber()); //현재페이지
 		
 		return "order/orderHist";
 	}
+	
+	//주문 취소
+	@PostMapping("/order/{orderId}/cancel")
+	public @ResponseBody ResponseEntity cancelOrder(@PathVariable("orderId") Long orderId, 
+			Principal principal) { 
+		
+		//1.주문취소 권한이 있는지 확인(본인확인)
+		if(!orderService.validateOrder(orderId, principal.getName())) {
+			return new ResponseEntity<String>("주문 취소 권한이 없습니다.", HttpStatus.FORBIDDEN);
+		}
+		
+		//2.주문취소
+		orderService.cancelOrder(orderId);
+		
+		return new ResponseEntity<Long>(orderId,HttpStatus.OK);//성공했을 때
+		
+	}
+	
+	//주문 삭제
+	@DeleteMapping("/order/{orderId}/delete")
+	public @ResponseBody ResponseEntity deleteOrder(@PathVariable ("orderId") Long orderId,
+			Principal principal) {
+		//1. 본인인증
+		if(!orderService.validateOrder(orderId, principal.getName())) {
+			return new ResponseEntity<String>("주문 삭제 권한이 없습니다.", HttpStatus.FORBIDDEN);
+		}
+		
+		//2.주문상세
+		orderService.deleteOrder(orderId);
+		return new ResponseEntity<Long>(orderId,HttpStatus.OK);
+		
+	}
+	
 }

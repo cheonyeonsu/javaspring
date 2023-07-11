@@ -51,12 +51,10 @@
 				<div class="col-md-8">
 					
 					<h2 class="h3 mb-3 text-black">구매내역</h2>
-
-					<div th:each="order : ${orders.getContent()}">
-
+					<div th:each="order : ${orders.getContent()}"> <!-- 페이징처리한 데이터 가져올 때는 getContent -->
 						<div class="d-flex mb-3 align-self-center">
 							<th:block th:if="${#strings.equals(order.orderStatus, 'ORDER')}">
-								<h4 th:text="${order.orderDate} + ' 주문'" style="font-size: 18px;"></h4>
+								<h4 th:text="${order.orderDate} + '주문'" style="font-size: 18px;"></h4>
 							</th:block>
 							<th:block th:unless="${#strings.equals(order.orderStatus, 'ORDER')}">
 								<h4 style="font-size: 18px;">주문 취소완료</h4>
@@ -81,12 +79,14 @@
 							<div>
 								<th:block th:if="${#strings.equals(order.orderStatus, 'ORDER')}">
 									<button type="button" class="btn btn-outline-secondary"
-										th:value="${order.orderId}" onclick="cancelOrder(this.value)">주문취소</button>
+										th:value="${order.orderId}" onclick="cancelOrder(this.value)">주문취소
+										</button>
 								</th:block>
 								<th:block th:unless="${#strings.equals(order.orderStatus, 'ORDER')}">
 									<p>
 										<button type="button" class="btn btn-primary"
-											th:value="${order.orderId}" onclick="deleteOrder(this.value)">삭제하기</button>
+											th:value="${order.orderId}" onclick="deleteOrder(this.value)">삭제하기
+											</button>
 									</p>
 								</th:block>
 							</div>

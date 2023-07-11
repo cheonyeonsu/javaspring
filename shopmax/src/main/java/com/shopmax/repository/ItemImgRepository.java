@@ -12,5 +12,5 @@ public interface ItemImgRepository extends JpaRepository<ItemImg, Long>{
 	
 	//대표이미지 넣기
 	//select * from item_img where item_id = ? and reping_yn = ?
-	ItemImg findByItemIdAndRePimgYn(Long itemId, String repingYn);
+	ItemImg findByItemIdAndRepimgYn(Long itemId, String repingYn);
 }

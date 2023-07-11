@@ -14,6 +14,7 @@ public class OrderItemDto {
 		this.itemNm = orderItem.getItem().getItemNm();
 		this.count = orderItem.getCount();
 		this.orderPrice = orderItem.getOrderPrice();
+		this.imgUrl = string;
 	}
 	
 	private String itemNm; //상품명

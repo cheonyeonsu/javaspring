@@ -80,4 +80,14 @@ public class Order {
 		}
 		return totalPrice;
 	}
+	
+	//주문취소
+	public void cancelOrder() {
+		this.orderStatus = OrderStatus.CANCEL;
+		
+		//재고를 원래대로 돌려놓는다.(재고는 오터아이템엔티티에.)
+		for(OrderItem orderItem : orderItems) {
+			orderItem.cancel();
+		}
+	}
 }
