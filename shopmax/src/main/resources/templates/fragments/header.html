@@ -7,7 +7,8 @@ xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
       <div class="search-wrap"> <!-- 검색창 부분 -->
         <div class="container">
           <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
-          <form th:action="@{/item/shop}" method="post"> <!-- 검색어 입력하면 /item/shop로 가도록 -->
+          <!-- 검색어 입력하면 /item/shop로 가도록. get으로 정보 끌고감.  -->
+          <form th:action="@{/item/shop}" method="get"> 
             <input type="text" name="searchQuery" class="form-control" placeholder="검색어를 입력하세요">
           </form>  
         </div>

@@ -5,10 +5,10 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.query.Param;
 
 import com.shopmax.constant.ItemSellStatus;
+import com.shopmax.dto.ItemRankDto;
 import com.shopmax.entity.Item;
 								//<해당 레파지토리에서 사용할 entity, entity클래스의 기본키 타입.>
 public interface ItemRepository extends JpaRepository<Item,Long>, ItemRepositoryCustom{ //인터페이스는 다중상속 되니까!. 상속안해주면 커스텀어쩌구는 못씀.
@@ -49,5 +49,22 @@ public interface ItemRepository extends JpaRepository<Item,Long>, ItemRepository
 	// itemNm이 “테스트 상품1” 이고 ItemSellStatus가 Sell인 레코드를 구하는 @Query 어노테이션을 작성하시오.
 	@Query("select i from Item i where i.itemNm = :itemNm and i.itemSellStatus = :itemSellStatus")
 	List<Item> findByItemNmAndItemSellStatus1(@Param("itemNm") String itemNm, @Param("itemSellStatus") ItemSellStatus itemSellStatus);
+	
+	//인기 아이템 뿌려주는 부분. 쿼리가져올 때 별칭 꼭 써줘야 함. 
+	@Query(value="select data.num num, item.item_id id, item.item_nm itemNm, item.price price, item_img.img_url imgUrl, item_img.repimg_yn repimgYn \r\n"
+			+ "            from item \r\n"
+			+ "			inner join item_img on (item.item_id = item_img.item_id)\r\n"
+			+ "			inner join (select @ROWNUM\\:=@ROWNUM+1 num, groupdata.* from\r\n"
+			+ "			            (select order_item.item_id, count(*) cnt\r\n"
+			+ "			              from order_item\r\n"
+			+ "			              inner join orders on (order_item.order_id = orders.order_id)\r\n"
+			+ "			              where orders.order_status = 'ORDER'\r\n"
+			+ "			             group by order_item.item_id order by cnt desc) groupdata,\r\n"
+			+ "                          (SELECT @ROWNUM\\:=0) R \r\n"
+			+ "                          limit 6) data\r\n"
+			+ "			on (item.item_id = data.item_id)\r\n"
+			+ "			where item_img.repimg_yn = 'Y'\r\n"
+			+ "			order by num;", nativeQuery = true)
+	List<ItemRankDto> getItemRankList();
 	
 }
