@@ -1,7 +1,5 @@
 package com.shopmax.entity;
 
-import java.time.LocalDateTime;
-
 import com.shopmax.constant.ItemSellStatus;
 import com.shopmax.dto.ItemFormDto;
 import com.shopmax.exception.OutOfStockException;

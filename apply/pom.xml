@@ -67,17 +67,20 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-			</dependency>
+			</dependency> 	
+	<!--스프링 시큐리티. 관리자 로그인 때문에 필요. -->
 			<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-validation</artifactId>
+   			 <groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
-
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>myshop</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
+			
+
+
 	</dependencies>
 
 	<build>
