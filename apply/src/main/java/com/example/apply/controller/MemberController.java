@@ -30,7 +30,7 @@ public class MemberController {
 	//로그인 화면
 	@GetMapping(value="/members/login")
 	public String longinMember() {
-		return "member/memberLonginForm";
+		return "member/memberLoginForm";
 	}
 	
 	//회원가입 화면 띄움

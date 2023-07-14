@@ -12,15 +12,15 @@ import com.shopmax.dto.ItemRankDto;
 import com.shopmax.entity.Item;
 								//<해당 레파지토리에서 사용할 entity, entity클래스의 기본키 타입.>
 public interface ItemRepository extends JpaRepository<Item,Long>, ItemRepositoryCustom{ //인터페이스는 다중상속 되니까!. 상속안해주면 커스텀어쩌구는 못씀.
-	//select*from item where item_nm= ? 과 의미가 같음. 
+	//select*from item where item_nm= ? 과 의미가 같음. <상품 이름으로 데이터 조회>
 	List<Item> findByItemNm(String itemNm); 
 	
-	// select *from item where item_nm = ? and item_sell_status = ?
+	// select * from item where item_nm = ? and item_sell_status = ?
 	List<Item> findByItemNmAndItemSellStatus(String itemNm, ItemSellStatus itemSellStatus);
 	
 	//퀴즈 1-7
 	List<Item> findByPriceBetween(int price1, int price2);
-	// selete * from item where price between ?1 and ?2;
+	// select * from item where price between ?1 and ?2;
 	
 	List<Item> findByRegTimeAfter(LocalDateTime regTime);
 

@@ -23,6 +23,11 @@ public class MemberService {
 	
 	//이메일 중복 체크
 	private void vailidateDuplicateMember(Member member) {
-		
+		Member findMember = memberRepository.findByEmail(member.getEmail());
+	
+		if(findMember !=null) {
+			throw new IllegalStateException("이미 가입된 회원입니다.");
+		}
+	
 	}
 }

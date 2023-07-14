@@ -8,15 +8,14 @@ import jakarta.persistence.*; //임포트 많을 때 같은 애들 *로 묶어�
 import lombok.*;
 
 @Entity //엔티티 클래스로 정의. 꼭 있어야 함. 
-@Table(name="item") //테이블 이름 지정
+@Table(name="item") //어떤 테이블과 매핑될 지 지정
 @Getter
 @Setter
 @ToString
 public class Item extends BaseEntity {
-	@Id
+	@Id //기본키에 붙여줌
 	@Column(name="item_id") //테이블로 생성될 때 컬럼이름을 지정해준다. 
-	@GeneratedValue(strategy = GenerationType.AUTO) 
-	//값 어떻게 생성할건지 니가 정해.> 기본키 자동으로 지정해주는 전략 사용. 
+	@GeneratedValue(strategy = GenerationType.AUTO) //값 어떻게 생성할건지 니가 정해.> 기본키 자동으로 지정해주는 전략 사용. 
 	private Long id; //상품 코드[프라이머리키]
 	
 	@Column(nullable = false,length = 50) //not null여부, 컬럼 크기 지정. 
