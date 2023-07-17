@@ -31,7 +31,7 @@ public class SecurityConfig {
 		.formLogin(formLogin -> formLogin
 				.loginPage("/members/login") //로그인 페이지 url 설정
 				.defaultSuccessUrl("/") //로그인 성공시 이동할 페이지
-				.usernameParameter("email") //로그인 시 id로 사용할 파마레터 이름
+				.usernameParameter("userId") //로그인 시 id로 사용할 파마레터 이름
 				.failureUrl("/members/login/error") //로그인 실패 시 이동할 url
 				)
 		

@@ -7,6 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+
 import com.example.apply.dto.MemberFormDto;
 import com.example.apply.entity.Member;
 import com.example.apply.service.MemberService;
@@ -20,12 +21,11 @@ public class MemberController {
 
 	private final MemberService memberService;
 	private final PasswordEncoder passwordEncoder;
-	
+		
 	@GetMapping(value="/members/qa")
 	public String qa() {
 		return "member/qa";
 	}
-	
 	
 	//로그인 화면
 	@GetMapping(value="/members/login")
@@ -36,6 +36,9 @@ public class MemberController {
 	//회원가입 화면 띄움
 	@GetMapping(value="/members/new")
 	public String memberForm(Model model) {
+		MemberFormDto memberFormDto = new MemberFormDto();
+		model.addAttribute("memberFormDto", memberFormDto);
+		
 		return "member/memberForm";
 	}
 	

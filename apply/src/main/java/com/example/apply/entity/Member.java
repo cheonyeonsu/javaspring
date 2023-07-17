@@ -21,27 +21,28 @@ public class Member extends BaseEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	private String name;
+	@Column(unique = true) //회원을 아이디로 구분해야해서 동일한 값 못들어오게 유니크 속성 지정. 
+	private String userId;
 
-	@Column(unique = true)
 	private String email;
 
 	private String password;
 
-	private int number;
+	private String number;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 	@Enumerated(EnumType.STRING)
 	private Role role;
 
+	//멤버 앤티티를 생성하는 메소드. 
 	public static Member createMember(MemberFormDto memberFormDto, PasswordEncoder passwordEncoder) {
 
 		Member member = new Member();
 
-		member.setName(memberFormDto.getName());
+		member.setUserId(memberFormDto.getUserId());
 		member.setEmail(memberFormDto.getEmail());
 		member.setNumber(memberFormDto.getNumber());
 
-		// pw 암호화
+		// 비밀번호 암호화
 		String password = passwordEncoder.encode(memberFormDto.getPassword());
 
 		// member.setRole(Role.ADMIN); //관리자로 가입할 때

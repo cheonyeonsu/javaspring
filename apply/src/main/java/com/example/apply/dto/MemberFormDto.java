@@ -14,8 +14,8 @@ import lombok.Setter;
 @Setter
 public class MemberFormDto {
 
-	@NotBlank(message = "이름은 필수 입력 값입니다. ")
-	private String name;
+	@NotBlank(message = "아이디는 필수 입력 값입니다. ")
+	private String userId;
 	
 	@NotEmpty(message = "이메일은 필수 입력 값입니다. ")
 	@Email(message = "이메일 형식으로 입력해주세요.")
@@ -26,7 +26,7 @@ public class MemberFormDto {
 	private String password;
 	
 	@NotEmpty(message = "번호는 필수 입력 값입니다. ")
-	private int number;
+	private String number;
 	
 	private Role role;
 	

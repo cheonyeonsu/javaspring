@@ -16,12 +16,12 @@ public class MemberService {
 	
 	//회원가입 데이터 db에 저장
 	public Member saveMember(Member member) {
-		vailidateDuplicateMember(member);
+		vailidateDuplicateMember(member); //중복 확인
 		Member savedmember = memberRepository.save(member);
 		return savedmember;
 	}
 	
-	//이메일 중복 체크
+	//이메일 중복 체크. 이미 가입된 회원인 경우 IllegalStateException 예외 발생
 	private void vailidateDuplicateMember(Member member) {
 		Member findMember = memberRepository.findByEmail(member.getEmail());
 	
