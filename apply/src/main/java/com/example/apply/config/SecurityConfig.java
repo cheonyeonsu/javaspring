@@ -10,11 +10,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-
-
-
 @Configuration //bean객체 싱글톤으로 공유
-@EnableWebSecurity //spring security filterChain 자동 포함
+@EnableWebSecurity //spring security filterChain 자동 포함. 비밀번호 입력해야 접근가능. 
 public class SecurityConfig {
 
 	@Bean

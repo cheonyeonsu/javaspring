@@ -13,6 +13,8 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li> <!-- 과목 설명 -->
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="apply.html">apply</a></li> <!-- 수강신청-->
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/members/login">member</a></li> <!-- 회원가입. 경로는 멤버컨트롤러에서 가져옴.  -->
+                        <li><a href="/members/login" sec:authorize="isAnonymous()" >로그인</a></li>
+                		<li><a href="/members/logout" sec:authorize="isAuthenticated()">로그아웃</a></li>
                     </ul>
                 </div>
             </div>
