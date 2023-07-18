@@ -1,5 +1,7 @@
 package com.example.apply.dto;
 
+import com.example.apply.entity.ApplyClass;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,6 +9,15 @@ import lombok.Setter;
 @Setter
 public class ApplyClassDto {
 
+	public ApplyClassDto(ApplyClass applyClass, String string) {
+		this.applyName = applyClass.
+		this.applyDate
+		this.applyStatus
+		this.applyTo
+	}
+	
+	
+	
 	private String applyName; //신청자 명
 	
 	private int applyDate; //신청일
