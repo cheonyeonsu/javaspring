@@ -53,7 +53,8 @@ public class MemberController {
 			Member member = Member.createMember(memberFormDto, passwordEncoder); //PasswordEncoder > 패스워드를 암호화
 			memberService.saveMember(member);
 		} catch (IllegalStateException e) {
-			model.addAttribute("errorMessage,",e.getMessage());
+			e.printStackTrace();
+			model.addAttribute("errorMessage",e.getMessage());
 			return "member/memberForm";
 		}
 		

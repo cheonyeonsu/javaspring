@@ -2,8 +2,12 @@ package com.example.apply.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,17 +20,23 @@ import lombok.ToString;
 @ToString
 public class Apply {
 
-	@Id
-	@Column(name="")
-	@GeneratedValue
-	private Long apply; //수강신청 식별자
+	//관계성 만들어주기. 
+	@Id //기본키.
+	@Column(name="apply_id") //db에 저장되는 이름 지정. 
+	@GeneratedValue(strategy = GenerationType.AUTO) //기본키 자동 지정
+	private Long id; //수강신청 식별자
 	
-	private String name; //신청자 명
+	private String applyName; //신청자 명
 	
-	private int date; //신청일
+	private int applyDate; //신청일
 	
-	private String status; //신청 상태
+	private String applyStatus; //신청 상태
 	
-	private int to; //신청 가능 인원
+	private int applyTo; //신청 가능 인원
+	
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "member_id")
+	private Member member; //필드에 엔티티 넣어줌
 	
 }

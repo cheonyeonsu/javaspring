@@ -1,27 +1,35 @@
 package com.example.apply.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import jakarta.persistence.*;
+import lombok.*;
 
 @Entity
-@Table
+@Table(name = "list")
 @Getter
 @Setter
 @ToString
 public class List {
-
+	
+	@Id //기본키.
+	@Column(name="list_id") //db에 저장되는 이름 지정. 
+	@GeneratedValue(strategy = GenerationType.AUTO) //기본키 자동 지정
+	private Long id;
+	
 	//수업 이름
-	@Id
 	private String className;
 	
 	//수업 시간
-	private String time;
+	private String classtime;
 	
 	//수업 설명
-	private String detail;
+	private String classdetail;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "apply_id")
+	private Apply apply;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "subject_id")
+	private Subject subject;
 	
 }

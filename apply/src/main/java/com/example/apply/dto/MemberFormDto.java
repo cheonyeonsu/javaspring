@@ -26,7 +26,7 @@ public class MemberFormDto {
 	private String password;
 	
 	@NotEmpty(message = "번호는 필수 입력 값입니다. ")
-	private String number;
+	private String phone;
 	
 	private Role role;
 	

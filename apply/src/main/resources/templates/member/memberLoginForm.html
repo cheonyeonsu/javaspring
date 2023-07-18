@@ -14,38 +14,25 @@
 			<div class="row gx-4 gx-lg-5 justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-7">
 					<div class="my-5">
-						<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+						<form id="contactForm" action="/members/login" method="post">
 							
 							<div class="form-floating">
-								<input class="form-control" id="id" type="text"
+								<input class="form-control" id="userId" name="userId" type="text"
 									placeholder="아이디를 입력하세요." data-sb-validations="required" /> <label
-									for="id">ID</label>
-								<div class="invalid-feedback" data-sb-feedback="id:required">A
-									ID is required.</div>
+									for="userId">ID</label>
+								
 						</div>
 						<div class="form-floating">
-								<input class="form-control" id="pw" type="text"
+								<input class="form-control" id="password" name="password" type="text"
 									placeholder="비밀번호를 입력하세요." data-sb-validations="required" /> <label
-									for="id">PASSWORD</label>
-								<div class="invalid-feedback" data-sb-feedback="id:required">A
-									Password is required.</div>
+									for="password">PASSWORD</label>
+								
 							<br />		
 							</div>
-							<div class="form-floating">
-							<div class="d-none" id="submitSuccessMessage">
-								<div class="text-center mb-3">
-									<div class="fw-bolder">Form submission successful!</div>
-									To activate this form, sign up at <br /> <a
-										href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-								</div>
-							</div>
-							<div class="d-none" id="submitErrorMessage">
-								<div class="text-center text-danger mb-3">Error sending
-									message!</div>
-							</div>
-							</div>
+					<p th:if="${loginErrorMsg}" class="error"
+										th:text="${loginErrorMsg}"></p>
 							<!-- Submit Button-->
-						<input type="hidden" th:name="${_csrf.parameterName}">
+					
 						<button class="btn btn-primary text-uppercase" id="submitButton" type="submit">로그인</button>
 						<button class="btn btn-primary text-uppercase" id="submitButton" type="button" onclick="locateRegist()">회원가입</button>
 						<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
