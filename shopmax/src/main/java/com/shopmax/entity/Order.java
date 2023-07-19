@@ -35,7 +35,7 @@ public class Order {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	private LocalDateTime orderDate; //주문일 : 주문한 날짜. 
+	private LocalDateTime orderDate; //주문날짜. 
 	
 	@Enumerated(EnumType.STRING)
 	private OrderStatus orderStatus; //주문상태

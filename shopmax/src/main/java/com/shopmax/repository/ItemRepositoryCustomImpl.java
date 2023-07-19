@@ -77,7 +77,7 @@ public class ItemRepositoryCustomImpl implements ItemRepositoryCustom {
 		 * select * from item where reg_time = ? and item_sell_status = ? and
 		 * item_nm(create_by) like %검색어% order by item_id desc;
 		 */
-
+//날짜검색
 		List<Item> content = queryFactory.selectFrom(QItem.item)
 				.where(regDtsAfter(itemSearchDto.getSearchDateType()), 
 						searchSellStatusEq(itemSearchDto.getSearchSellStatus()),

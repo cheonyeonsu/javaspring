@@ -20,23 +20,20 @@ import lombok.ToString;
 @ToString
 public class Apply {
 
-	//관계성 만들어주기. 
+	//관계성 만들어주기. 수강신청 식별자. 
 	@Id //기본키.
 	@Column(name="apply_id") //db에 저장되는 이름 지정. 
 	@GeneratedValue(strategy = GenerationType.AUTO) //기본키 자동 지정
 	private Long id; //수강신청 식별자
 	
-	private String applyName; //신청자 명
-	
-	private int applyDate; //신청일
-	
-	private String applyStatus; //신청 상태
-	
-	private int applyTo; //신청 가능 인원
-	
-	
+	//학생 식별자
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "member_id")
 	private Member member; //필드에 엔티티 넣어줌
+	
+	//과목 식별자
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "subject_id")
+	private Subject subject;
 	
 }

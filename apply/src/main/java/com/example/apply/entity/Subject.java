@@ -1,28 +1,44 @@
 package com.example.apply.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
+import java.time.LocalDateTime;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
 @Table(name = "subject")
 @Getter
 @Setter
 @ToString
-//지정된 과목. = 수강신청할 수 있는 과목. 
 public class Subject {
+	
 	@Id //기본키.
 	@Column(name="subject_id") //db에 저장되는 이름 지정. 
 	@GeneratedValue(strategy = GenerationType.AUTO) //기본키 자동 지정
-	private Long id;
+	private Long subjectId;
 	
-	//과목 이름
+	//과목명
 	private String subjectName;
 	
-	//수업 시간
-	private String subjecttime;
+	//개강 일자
+	private LocalDateTime subjectStartDate;
 	
-	//수업 설명
+	//종강 일자
+	private LocalDateTime subjectEndDate;
+	
+	//과목 설명
 	private String subjectdetail;
 	
+	//수강 가능 인원
+	private int subjectTo;
+	
+	
+
 }
