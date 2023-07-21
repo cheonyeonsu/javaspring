@@ -20,9 +20,11 @@ public class SubjectService {
 	private final SubjectRepository subjectRepository;
 	
 	@Transactional(readOnly = true)
-	public Page<SubjectDto> getAdminItemPage(SubjectSearchDto subjectSearchDto, Pageable pageable){
+	public Page<SubjectDto> getApplyPage(SubjectSearchDto subjectSearchDto, Pageable pageable){
 		Page<SubjectDto> applyPage = subjectRepository.getApplyPage(subjectSearchDto, pageable);
 		return applyPage;
 		
 	}
+	
+	
 }

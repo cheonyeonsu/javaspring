@@ -93,6 +93,7 @@
 					
 					<div class="row">
 						<div class="col-md-12">
+						<!-- page start -->
 							<div
 								th:with="start=${(items.number/maxPage)*maxPage + 1}, end=(${(items.totalPages == 0) ? 1 : (start + (maxPage - 1) < items.totalPages ? start + (maxPage - 1) : items.totalPages)})">
 								<ul class="pagination justify-content-center">
@@ -124,6 +125,7 @@
 
 								</ul>
 							</div>
+							<!-- page end -->
 						</div>
 					</div>
 				</div>

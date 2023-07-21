@@ -10,8 +10,8 @@ xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li> <!-- 메인 -->
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li> <!-- 과목 설명 -->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/">Home</a></li> <!-- 메인 -->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/qna/list">Q&A</a></li> <!-- 게시판 -->
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/apply/new">apply</a></li> <!-- 수강신청-->
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/members/login">member</a></li> <!-- 회원가입. 경로는 멤버컨트롤러에서 가져옴.  -->
                         <li class="nav-item"><a href="/members/login" class="nav-link px-lg-3 py-3 py-lg-4" sec:authorize="isAnonymous()" >login</a></li>

@@ -1,0 +1,56 @@
+<!-- 등록 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layouts/layout1}">
+
+<th:block layout:fragment="css">
+	<style>
+.content_box {
+	width: 700px;
+	margin: 0 auto;
+}
+</style>
+
+</th:block>
+
+<div layout:fragment="content" class="content">
+	
+<form action="/qna/regist" method="post" name="registForm">
+	<!-- ★제목,내용 2개 div를 하나의 div로 묶어 css에서 크기조절★ -->
+	<div class="content_box"> 
+		<div class="bbsCreated_bottomLine">
+			<dl>
+				<dt>제&nbsp;&nbsp;&nbsp;&nbsp;목</dt>
+				<dd>
+					<input type="text" name="subject" size="60" maxlength="100"
+						class="boxTF" />
+				</dd>
+			</dl>
+		</div>
+		<div id="bbsCreated_content">
+			<dl>
+				<dt>내&nbsp;&nbsp;&nbsp;&nbsp;용</dt>
+				<dd>
+					<textarea rows="12" cols="63" name="content" class="boxTA"></textarea>
+				</dd>
+			</dl>
+		</div>
+	<!-- ★부트스트랩에서 가져온 flex로 정렬★ -->
+	<div class="d-flex justify-content-center"> 
+		<button type="submit" class="btn btn-outline-secondary"
+			>등록하기</button>
+	</div>
+	</div>
+</form>
+
+</div>
+
+<!-- 각 페이지의 스크립트가 작성될 위치 -->
+<th:block layout:fragment="script">
+	<script th:inline="javascript">
+		
+	</script>
+</th:block>
+
+</html>

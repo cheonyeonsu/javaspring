@@ -23,18 +23,19 @@ public class SubjectDto {
 	private LocalDateTime subjectEndDate;
 
 	// 과목 설명
-	private String subjectdetail;
+	private String subjectDetail;
 
 	// 수강 가능 인원
 	private int subjectTo;
 	
 	@QueryProjection
-	public SubjectDto(Long id, String subjectName,LocalDateTime subjectStartDate,LocalDateTime subjectEndDate,String subjectdetail,int subjectTo) {
+	public SubjectDto(Long id, String subjectName,LocalDateTime subjectStartDate,
+					  LocalDateTime subjectEndDate,String subjectDetail,int subjectTo) {
 		this.id = id;
 		this.subjectName = subjectName;
 		this.subjectStartDate = subjectStartDate;
 		this.subjectEndDate= subjectEndDate;
-		this.subjectdetail=subjectdetail;
+		this.subjectDetail=subjectDetail;
 		this.subjectTo = subjectTo;
 		
 	}
